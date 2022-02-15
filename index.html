@@ -3,113 +3,178 @@
   <head>
     <meta charset="utf-8">
     <title>My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mycss_web.css">
+    <link rel="stylesheet" href="./css/mycss_tablet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1 id="aboutme">About Me</h1>
-    <div><strong>Michael Mulhern</strong>
+    <nav id="mainnavbar" class="navbar navbar-expand-sm bg-dark navbar-dark">
+   <a class="navbar-brand" href="#">
+    <img src="imgs/pfp2.gif" alt="Logo" style="width:40px;">
+  </a>
+  <ul class="navbar-nav mr-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="#aboutme">About Me</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#education">Education</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#workexp">Work Experience</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#progskills">Programming Skills</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#interests">General Interests</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#media">Favorite Media</a>
+      </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#websites">Favorite Websites</a>
+  </li>
+</ul>
+<form class="form-inline" action="./index.html">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+<div class="jumbotron">
+    <h1 id="aboutme" style="display:inline">About Me</h1><br>
+    <div style="display: flex; align-items: center; text-align: center; flex-wrap: wrap;">
     <picture>
-      <source type="image/webp" srcSet="./imgs/pfp1.webp" />
-      <img src="./imgs/pfp1.gif" alt="pfp" style="width:80px;height:80px;"/>
-    </picture>
-    </div>
-    <p><strong>Major:</strong> Computer Science</p>
+        <source type="image/webp" srcSet="./imgs/pfp1.webp"/>
+        <img src="./imgs/pfp1.gif" alt="pfp" style="width:150px;height:150px;" class="img-fluid img-thumbnail"/>
+      </picture>
+    <h3 class="aboutmetext"><strong>Michael Mulhern</strong><br class="d-sm-inline d-md-inline d-lg-inline" /><strong>Major:</strong> Computer Science</h3>
+  </div>
+  </div>
 
+<div class="jumbotron">
     <h2 id="education">Education</h2>
     <p><strong>High School:</strong> Chaminade High School '20, Mineola, NY</p>
     <p><strong>Undergraduate:</strong> St. John's University '24</p>
-
-    <h2 id="workexp">Work Experience</h2>
-    <ul>
-    <div>
-      <img src="https://i0.wp.com/obrinvesting.com/wp-content/uploads/2021/05/Logo-1-White.png" alt="pfp" style="width:80px;height:80px;"/>
-    <li><strong>OBR Investing, LLC.</strong></li> 
   </div>
-    <ul>
-      <li>Position: Senior Software Engineer</li>
-      <li>Responsibilities: Plan and develop software solutions </li>
-    </ul>
-    <li><strong>ScarceHosting, LLC.</strong></li>
-    <ul>
-      <li>Position: Head of Support Department</li>
-      <li>Responsibilities: Supervise the Support Department to ensure proper customer service, professionalism & efficiency</li>
-    </ul>
-    <li><strong>ForBestHosting, LLC.</strong></li>
-    <ul>
-      <li>Position: Intern as Systems Administrator</li>
-      <li>Responsibilities: Respond to support tickets and supervise systems</li>
-    </ul>
-  </ul>
 
-  <h2 id="progskills">Programming Skills</h2>
-  <ul>
-    <li>Batch - the first language I ever worked with</li>
-    <li>TypeScript - my favorite language</li>
-    <li>Java - what I'm taught at SJU</li>
-  </ul>
-  <table>
-    <tr>
-      <th>Language</th>
-      <th>Experience</th>
-    </tr>
-    <tr>
-      <td>Batch</td>
-      <td><span style="color:orange">(3/10)</span></td>
-    </tr>
-    <tr>
-      <td>TypeScript</td>
-      <td><span style="color:orange">(6/10)</span></td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td><span style="color:orange">(5/10)</span></td>
-    </tr>
-  </table>
+<main class="container-fluid">
+    <div class="row">
+      <article class="col-sm-8 ">
+        <div class="row">
+          <section class="col-md-5">
+            <h3>General Interests</h3>
+            <ul class="aboutmetext">
+              <li>Learning languages (Programming and Chinese, Spanish, German, etc.)</li>
+              <li>Graphic Design (Adobe Photoshop)</li>
+              <li>3D Modeling (Maya, Blender, etc.)</li>
+              <li>Server Management (Linux/Windows/Plesk/Pterodactyl)</li>
+              <li>Video Games (former Twitch Streamer)</li>
+            </ul>
+          </section>
 
-  <p>Learn about TypeScript in 100 Seconds:</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/zQnBQ4tB3ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <section class="col-md-5">
+            <h3 id="media">Favorite Media</h3>
+            <ul>
+              <li><strong>Favorite Song:</strong> IMY2 (with Kid Cudi), Drake</li>
+              <li><strong>Favorite Film:</strong> Catch Me If You Can, 2002</li>
+              <li><strong>Favorite TV Show:</strong> Black Clover, 2017-</li>
+            </ul>
+          </section>
 
-  <h2 id="interests">General Interests</h2>
-  <ul>
-    <li>Learning languages (Programming and Chinese, Spanish, German, etc.)</li>
-    <li>Graphic Design (Adobe Photoshop)</li>
-    <li>3D Modeling (Maya, Blender, etc.)</li>
-    <li>Server Management (Linux/Windows/cPanel/Plesk/Pterodactyl)</li>
-    <li>Video Games (former Twitch Streamer)</li>
-  </ul>
+          <section class="col-md-5">
+            <h3 id="websites">Favorite Websites</h3>
+            <ol>
+              <li><a href="https://www.discord.gg/" target="_blank" rel="noopener noreferrer"> Discord</a> is my favorite social platform</li>
+              <li><a href="https://obrinvesting.com/" target="_blank" rel="noopener noreferrer"> OBR Investing</a> is the website for my company</li>
+              <li><a href="https://google.com/" target="_blank" rel="noopener noreferrer"> Google</a> is my search engine of choice</li>
+            </ol>
+          </section>
 
-  <h2 id="media">Favorite Media</h2>
-  <ul>
-    <li><strong>Favorite Song:</strong> IMY2 (with Kid Cudi), Drake</li>
-    <li><strong>Favorite Film:</strong> Catch Me If You Can, 2002</li>
-    <li><strong>Favorite TV Show:</strong> Black Clover, 2017-</li>
-  </ul>
+          <section class="col-md-5">
+            <h3 id="progskills">Programming Skills</h3>
+            <ul>
+              <li>Batch - The very first language I ever used</li>
+              <li>TypeScript - Currently my favorite language</li>
+              <li>Java - What I'm taught at SJU</li>
+            </ul>
+            <div class="table-responsive-sm">
+            <table class="table table-striped table-dark table-hover">
+              <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Language</th>
+                <th scope="col">Experience</th>
+              </tr>
+            </thead>
+              <tr>
+                <th scope="row">1</th>
+                <td>Batch</td>
+                <td><span style="color:orange">(3/10)</span></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>TypeScript</td>
+                <td><span style="color:orange">(6/10)</span></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Java</td>
+                <td><span style="color:orange">(5/10)</span></td>
+              </tr>
+            </table>
+            </div>
+      </article>
 
-  <h2 id="websites">Favorite Websites</h2>
-  <ol>
-    <li><a href="https://www.discord.gg/" target="_blank" rel="noopener noreferrer"> Discord</a> is my favorite social platform</li>
-    <li><a href="https://obrinvesting.com/" target="_blank" rel="noopener noreferrer"> OBR Investing</a> is the website for my company</li>
-    <li><a href="https://google.com/" target="_blank" rel="noopener noreferrer"> Google</a> is my search engine of choice</li>
-  </ol>
+      <aside class="col-sm-4">
+        <h2>My Favorite Language</h2>
+        Learn a little about TypeScript in 100 Seconds:
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/zQnBQ4tB3ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </aside>
+    </div>
 
-  <h1 id="menu">Menu</h1>
-  <ol>
-    <li><a href="#aboutme"> About Me</a>: Basic Profile Info</li>
-    <li><a href="#education"> Education</a>: Summary of My Education</li>
-    <li><a href="#workexp"> Work Experience</a>: Projects I have worked on</li>
-    <li><a href="#progskills"> Programming Skills</a>: Summary of the Languages I have worked with</li>
-    <li><a href="#interests"> General Interests</a>: Hobbies and things that excite me</li>
-    <li><a href="#media"> Favorite Media</a>: My Favorite song, film and TV Show</li>
-    <li><a href="#websites"> Favorite Websites</a>: The Websites I use the most</li>
-    <li><a href="#menu"> Menu</a>: Return back to this menu</li>
-  </ol>
-
-  <form action="index">
-    <label>Thank you for visiting my profile webpage.<br>Please leave contact info below:</label><br>
-    <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" placeholder="First Last"><br>
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" placeholder="first.last00@stjohns.edu"><br><br>
-    <input type="submit" value="Submit">
-  </form>
+    <h2 id="workexp"><br class="d-sm-inline d-md-inline d-lg-inline" />Work Experience</h2>
+    <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="./imgs/obrinvesting.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">OBR Investing, LLC.</h5>
+      <p class="card-text"><strong>Position:</strong> Senior Software Engineer</p>
+      <p class="card-text"><strong>Responsibilities:</strong> Plan and develop software solutions</p>
+<div class="card-footer">
+<small class="text-muted">2021 - Current</small>
+  </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./imgs/scarce.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">ScarceHosting, LLC.</h5>
+      <p class="card-text"><strong>Position:</strong> Head of Support Department</p>
+      <p class="card-text"><strong>Responsibilities:</strong> Supervise the Support Department to ensure proper customer service, professionalism & efficiency</p>
+<div class="card-footer">
+  <small class="text-muted">2016 - 2017</small>
+  </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./imgs/fbhlogo.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">ForBestHosting, LLC.</h5>
+      <p class="card-text"><strong>Position:</strong> Intern as Systems Administrator</p>
+      <p class="card-text"><strong>Responsibilities:</strong> Respond to support tickets and supervise systems</p>
+      <div class="card-footer">
+        <small class="text-muted">2020 - Current</small>
+        </div>
+    </div>
+  </div>
+</div>
+  </main>
+<footer class="container-fluid"><strong>Thank you for visiting my profile webpage.</strong></footer>
   </body>
 </html>

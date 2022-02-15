@@ -1,0 +1,29 @@
+/*Responsive Design below*/
+@media (min-width: 769px){
+  .card-img-top {
+    max-height: 500px;
+    max-width: 500px;
+  }
+
+  .aboutmetext {
+    position: absolute;
+    left: 250px;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgrey;
+    border-radius: 1em;
+  }
+
+.video-wrapper {
+   position: absolute;
+   right: 30px;
+ }
+
+ .custom-iframe {
+   width: 560;
+   height: 315;
+ }
+}

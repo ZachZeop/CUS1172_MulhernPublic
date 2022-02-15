@@ -1,0 +1,62 @@
+/*Responsive Design below*/
+@media (max-width: 640px) {
+  .card-img-top {
+    position: relative;
+    left: 40px;
+    max-height: 230px;
+    max-width: 230px;
+  }
+
+  .aboutmetext {
+    position: relative;
+    right: 10px;
+  }
+
+  section {
+    width: 60%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgrey;
+    border-radius: 1em;
+  }
+
+  .section-text {
+    font-size:5vw;
+  }
+
+  .custom-iframe {
+    width: 96%;
+    height: 96%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px){ /* >641 & <768 */
+  .card-img-top {
+    position: relative;
+    left: 40px;
+    max-height: 230px;
+    max-width: 230px;
+  }
+
+  .aboutmetext {
+    position: absolute;
+    left: 170px;
+  }
+
+  section {
+    width: 60%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgrey;
+    border-radius: 1em;
+  }
+
+  .section-text {
+    font-size:5vw;
+  }
+
+  .custom-iframe {
+    width: 96%;
+    height: 96%;
+  }
+}
