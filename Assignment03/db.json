@@ -131,7 +131,7 @@
       {
          "question" : "Where is the correct place to insert a JavaScript file?",
          "answer" : "Both",
-         "choices" : ["<head>", "<body>", "both", "neither"],
+         "choices" : ["<head>", "<body>", "Both", "Neither"],
          "feedback" : "The correct answer is both in the head and the body!"
       },
       {
@@ -239,7 +239,7 @@
       {
          "question" : "How do you declare a JavaScript variable named carName?",
          "answer" : "var carName;",
-         "choices" : ["var carName;", "var carName;", "v carName;", "String carName;"],
+         "choices" : ["var carName;", "var carName();", "v carName;", "String carName;"],
          "feedback" : "var carName; is the proper way to declare a JS variable."
       } 
    ]
