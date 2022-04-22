@@ -1,0 +1,246 @@
+{
+   "quiz_one" : [
+      {
+         "question" : "How do you print Hello World using Java?",
+         "answer" : "System.out.println(\"Hello World\");",
+         "choices" : ["echo(\"Hello World\");", "System.out.println(\"Hello World\");", "print(\"Hello World\")", "Console.WriteLine(\"Hello World\")"],
+         "feedback" : "The correct answer is System.out.println(\"Hello World\");"
+      },
+      {
+         "question" : "Java is short for JavaScript",
+         "answer" : "False",
+         "choices" : ["True", "False"],
+         "feedback" : "They are two different languages!"
+      },
+      {
+         "question" : "How would you insert a comment in Java?",
+         "answer" : "// This is a comment",
+         "choices" : ["// This is a comment", "/* This is a comment", "# This is a comment"],
+         "feedback" : "// is the proper way to insert a comment in Java"
+      },
+      {
+         "question" : "What data type in Java is used to store text?",
+         "answer" : "String",
+         "choices" : ["String", "Text", "Comment", "myString"],
+         "feedback" : "String is used to store text"
+      },
+      {
+         "question" : "How do you create a variable with the number 10 in Java?",
+         "answer" : "int x = 10;",
+         "choices" : ["num x = 10;", "x = 10;", "int x = 10;", "float x = 10;"],
+         "feedback" : "int variables are used for numbers in Java"
+      },
+      {
+         "question" : "How do you create a variable named x with the floating number 1.5?",
+         "answer" : "float x = 1.5f;",
+         "choices" : ["byte x = 1.5f;", "float x = 1.5f;", "x = 1.5f;", "int x = 1.5f;"],
+         "feedback" : "Floating numbers are represented using float"
+      },
+      {
+         "question" : "What Java method returns the length of a string?",
+         "answer" : "length()",
+         "choices" : ["length()", "getLength()", "lengthOf()", "size()"],
+         "feedback" : "length() is the proper method"
+      },
+      {
+         "question" : "What operator is used to add two values in Java?",
+         "answer" : "+",
+         "choices" : ["+", "/", "&", "*"],
+         "feedback" : "The + operator is used to add two values together."
+      },
+      {
+         "question" : "What method returns a string with upper case letters?",
+         "answer" : "toUpperCase()",
+         "choices" : ["Upper()", "toUpperCase()", "UpCase()", "tUC()"],
+         "feedback" : "The correct method is: toUpperCase()"
+      },
+      {
+         "question" : "In Java, what operator is used to compare two values?",
+         "answer" : "==",
+         "choices" : ["=", "==", "&&", "<>"],
+         "feedback" : "To compare two values, use the == operator"
+      },
+      {
+         "question" : "To declare an array in Java, define the variable type with:",
+         "answer" : "[]",
+         "choices" : ["[]", "()", "{}", "<>"],
+         "feedback" : "[] Brackets are used to declare Arrays in Java"
+      },
+      {
+         "question" : "In Java, Array indexes start with:",
+         "answer" : "0",
+         "choices" : ["0","1"],
+         "feedback" : "Java Arrays start at 0"
+      },
+      {
+         "question" : "How do you create a method in Java?",
+         "answer" : "method()",
+         "choices" : ["method()", "method.", "(method)", "method[]"],
+         "feedback" : "method() indicates a method is being used. Any method parameters go inside the ()."
+      },
+      {
+         "question" : "How do you call a method in Java?",
+         "answer" : "method();",
+         "choices" : ["method();", "method;", "(method);", "method[];"],
+         "feedback" : "method(); indicates a method is being used. Any method parameters go inside the ()."
+      },
+      {
+         "question" : "How do you create an object named myObj of MyClass?",
+         "answer" : "MyClass myObj = new MyClass;",
+         "choices" : ["new myObj = MyClass();", "class myObj = new MyClass();", "class MyClass = new myObj();", "MyClass myObj = new MyClass();"],
+         "feedback" : "MyClass myObj = new MyClass; is the proper way of creating an object of MyClass called myObj."
+      },
+      {
+         "question" : "In Java, it is possible to inherit attributes and methods from one class to another?",
+         "answer" : "True",
+         "choices" : ["True", "False"],
+         "feedback" : "True! Java classes can inherit attributes/methods from other classes."
+      },
+      {
+         "question" : "In Java, which method can be used to find the highest value of x and y?",
+         "answer" : "Math.max(x,y)",
+         "choices" : ["Math.max(x,y)", "Math.largest(x,y)", "Math.highest(x,y)", "Math.maximum(x,y)"],
+         "feedback" : "The correct answer is Math.max(x,y)"
+      },
+      {
+         "question" : "In Java, which operator is used to multiply numbers?",
+         "answer" : "*",
+         "choices" : ["X", "#", "%", "*"],
+         "feedback" : "The * is used to multiply numbers together."
+      },
+      {
+         "question" : "Which keyword is used to import a package from the Java API library?",
+         "answer" : "import",
+         "choices" : ["import", "package", "lib", "getlib"],
+         "feedback" : "The import keyword is used for importing packagages."
+      },
+      {
+         "question" : "How do you start writing an if statement in Java?",
+         "answer" : "if (x>y)",
+         "choices" : ["if (x>y)", "if x>y", "if x>y then:", "if {x>y} then"],
+         "feedback" : "if (x>y) is the correct answer, because the if conditions go inside ()"
+      } 
+   ],
+   "quiz_two" : [
+      {
+         "question" : "Inside which HTML element do you put JavaScript?",
+         "answer" : "<script>",
+         "choices" : ["<js>", "<script>", "<javascript>", "<code>"],
+         "feedback" : "The correct answer is <script>"
+      },
+      {
+         "question" : "Where is the correct place to insert a JavaScript file?",
+         "answer" : "Both",
+         "choices" : ["<head>", "<body>", "both", "neither"],
+         "feedback" : "The correct answer is both in the head and the body!"
+      },
+      {
+         "question" : "How do you reference an external JavaScript?",
+         "answer" : "<script src=\"javascript.js\">",
+         "choices" : ["<script src=\"javascript.js\">", "<script name=\"javascript.js\">", "<script href=\"javascript.js\">", "<script=\"javascript.js\">"],
+         "feedback" : "The correct answer is <script src=\"javascript.js\">"
+      },
+      {
+         "question" : "External JavaScript files must contain a <script> tag within the .js file itself.",
+         "answer" : "False",
+         "choices" : ["True", "False"],
+         "feedback" : "The <script> tag is only for the HTML document calling the JavaScript file."
+      },
+      {
+         "question" : "Using JavaScript, How do you write \"Hello World\" in an alert box?",
+         "answer" : "alert(\"Hello World\")",
+         "choices" : ["alert(\"Hello World\")", "alertBox(\"Hello World\")", "msg(\"Hello World\")", "msgBox(\"Hello World\")"],
+         "feedback" : "The correct syntax is alert(\"Hello World\")"
+      },
+      {
+         "question" : "How do you create a function in JavaScript?",
+         "answer" : "function functionName()",
+         "choices" : ["function functionName()", "function = myFunction()", "function:myFunction()", "function(functionName)"],
+         "feedback" : "The correct way to create a function is: function functionName()"
+      },
+      {
+         "question" : "How do you call a function named \"myFunction\"?",
+         "answer" : "myFunction()",
+         "choices" : ["myFunction()", "call myFunction()", "call function myFunction()", "myFunction(call)"],
+         "feedback" : "The correct usage is myFunction()"
+      },
+      {
+         "question" : "How to write an IF statement in JavaScript?",
+         "answer" : "if (i>5)",
+         "choices" : ["if (i>5)", "if i>5", "if i>5 then", "if i>5:"],
+         "feedback" : "if (i>5) is the correct syntax"
+      },
+      {
+         "question" : "What operator indicates NOT?",
+         "answer" : "!true",
+         "choices" : ["!true", ":true", "*true", "Xtrue"],
+         "feedback" : "The correct operator is !"
+      },
+      {
+         "question" : "In JS, How does a WHILE loop start?",
+         "answer" : "while(i<10)",
+         "choices" : ["while(i<10)", "while i<10", "(while i<10)", "while i<10:"],
+         "feedback" : "The proper syntax for a JavaScript While loop is while(i<10)"
+      },
+      {
+         "question" : "How does a FOR loop start?",
+         "answer" : "for (i = 0; i <= 5; i++)",
+         "choices" : ["for (i = 0; i <= 5; i++)", "for (i = 0; i <= 5)", "for i = 1 to 5", "for (i <= 5; i++)"],
+         "feedback" : "The proper syntax of a for loop is: for (i = 0; i <= 5; i++)"
+      },
+      {
+         "question" : "How can you add a comment in a JavaScript?",
+         "answer" : "//Comment",
+         "choices" : ["//Comment", "<!-- Comment -->", "'This is a comment", "~Comment"],
+         "feedback" : "The proper syntax is //Comment"
+      },
+      {
+         "question" : "How do you add a multi-line comment in JavaScript?",
+         "answer" : "/* This comment is multi-line */",
+         "choices" : ["/* This comment is multi-line */", "<!-- This comment is multi-line -->", "//This comment is multi-line //", "~~This is a multi-line comment ~~"],
+         "feedback" : "This is the proper way to add a multi-line comment: /* This comment is multi-line */"
+      },
+      {
+         "question" : "In JS, How do you make an array of Strings called colors?",
+         "answer" : "var colors = [\"red\",\"green\",\"blue\"]",
+         "choices" : ["var colors = [\"red\",\"green\",\"blue\"]", "var colors = \"red\",\"green\",\"blue\"", "var colors = [1:\"red\",2:\"green\",3:\"blue\"]", "var colors = (1:\"red\",2:\"green\",3:\"blue\")"],
+         "feedback" : "The proper way is: var colors = [\"red\",\"green\",\"blue\"]"
+      },
+      {
+         "question" : "How do you round a number to the nearest integer?",
+         "answer" : "Math.round()",
+         "choices" : ["Math.round()", "round()", "Math.rnd()", "rnd()"],
+         "feedback" : "Use Math.round() to round to the nearest integer."
+      },
+      {
+         "question" : "How do you find the number with the highest value of x and y?",
+         "answer" : "Math.max(x,y)",
+         "choices" : ["top(x,y)", "Math.max(x,y)", "ceil(x,y)", "Math.ceil(x,y)", "Math.maximum(x,y)"],
+         "feedback" : "Math.max(x,y) is used to find the maximum."
+      },
+      {
+         "question" : "JavaScript is the same as Java.",
+         "answer" : "False",
+         "choices" : ["True", "False"],
+         "feedback" : "They are two different languages!"
+      },
+      {
+         "question" : "How can you detect the client's browser name?",
+         "answer" : "navigator.appName",
+         "choices" : ["navigator.appName", "client.navName", "browsername()", "browser.name"],
+         "feedback" : "navigator.appName is the proper syntax."
+      },
+      {
+         "question" : "Which event occurs when the user clicks on an HTML element?",
+         "answer" : "onclick",
+         "choices" : ["leftmouse", "onclick", "onmouseclick", "onchange"],
+         "feedback" : "the onclick event handles user clicks."
+      },
+      {
+         "question" : "How do you declare a JavaScript variable named carName?",
+         "answer" : "var carName;",
+         "choices" : ["var carName;", "var carName;", "v carName;", "String carName;"],
+         "feedback" : "var carName; is the proper way to declare a JS variable."
+      } 
+   ]
+}
