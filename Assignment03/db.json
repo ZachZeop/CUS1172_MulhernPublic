@@ -86,7 +86,7 @@
       },
       {
          "question" : "How do you create an object named myObj of MyClass?",
-         "answer" : "MyClass myObj = new MyClass;",
+         "answer" : "MyClass myObj = new MyClass();",
          "choices" : ["new myObj = MyClass();", "class myObj = new MyClass();", "class MyClass = new myObj();", "MyClass myObj = new MyClass();"],
          "feedback" : "MyClass myObj = new MyClass; is the proper way of creating an object of MyClass called myObj."
       },
